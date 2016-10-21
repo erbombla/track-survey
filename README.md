@@ -1,6 +1,6 @@
 # _Epicodus Survey_
 
-#### _A simple survey to help decide which learning track to pursue. Oct. 21,2016
+#### A simple survey to help decide which learning track to pursue. Oct. 21,2016
 
 #### By Eric Bomblatus
 
