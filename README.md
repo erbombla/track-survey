@@ -2,7 +2,7 @@
 
 #### _A simple survey to help decide which learning track to pursue, Oct. 21,2016_
 
-#### By _** Eric Bomblatus **_
+#### By Eric Bomblatus
 
 ## Description
 
@@ -40,6 +40,10 @@ This repository is written in:
 * CSS
 * JavaScript
 * jQuery
+
+## Link 
+
+https://erbombla.github.io/track-survey/
 
 ### License
 
