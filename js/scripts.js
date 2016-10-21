@@ -1,7 +1,7 @@
 // Business logic:
-  //var company = $("input:radio[name=company]:checked").val();
+var company = $("input:radio[name=company]:checked").val();
 
-  //var size = $("input:radio[name=size]:checked").val();
+//var size = $("input:radio[name=size]:checked").val();
 
 //var build = $("input:radio[name=build]:checked").val(); //Build Radio
 
@@ -11,17 +11,15 @@
 
 // User input:
 $(document).ready(function() {
-  var company = $("input:radio[name=company]:checked").val();
   //$('.dropdown-toggle').dropdown(); //activiates Drop-down
-  $("form").submit(function(event) {
-
+  $("form#survey").submit(function(event) {
     if ( company === 'option1' ) {
       $( "#output1" ).show(); // C# and .NET
     }
-    else if ( company === 'option2' ) {
+    if else ( company === 'option2' ) {
       $( "output2" ).show(); // Java and Android
     }
-    else if ( company === 'option3' ) {
+    if else ( company === 'option3' ) {
       $( "output3" ).show(); // CSS and Design
     }
     else {
