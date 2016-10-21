@@ -2,8 +2,23 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+p,
+form {
+  font-size: 18px
+}
+
 .jumbotron {
   text-align: center;
+  background-color: #00b3b4;
+}
+
+.about {
+  margin-bottom: 2%; 
+}
+
+.panel {
+  margin-top: 2%;
+  font-size: 18px;
 }
 
 #output1 {
