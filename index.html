@@ -3,6 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Track Survey</title>
@@ -17,77 +18,118 @@
         <p>Which track would you like to pursue at Epicodus? While all languages have similarities, and switching between languages and platforms is very common in both internships and jobs, you should still choose the track you wish to complete. This survey will help you decide. Let's get started!</p>
       </div>
       <!--Begin Survey-->
-      <div class="row">
-        <div class="col-md-6">
-          <form id="name">
-          <!---Company Radio-->
+      <form id="name">
+        <div class="row">
+          <div class="col-md-6">
+            <!---Company Radio-->
+              <div>
+                <label for="radio"><strong>Which companies appeal to you most?</strong></label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="company" value="option1" checked>
+                    Microsoft, Stack Overflow, Metal Toad
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="company2" value="option2">
+                    eBay, Nike, Google
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="company3" value="option3">
+                    Uber, Soundcloud, Salesforce
+                  </label>
+                </div>
+              </div>
+            <!--Environment Radio-->
+              <div>
+                <label for="radio"><strong>Which type of environment do you thrive in?</strong></label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="..." value="..." checked>
+                    Large enterprise
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="..." value="...">
+                    Small enterprise/freelance
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="..." value="...">
+                    Startups
+                  </label>
+                </div>
+              </div>
+            <!--Build Radio-->
             <div>
-              <label for="radio"><strong>Which companies appeal to you most?</strong></label>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="company" value="option1" checked>
-                  Microsoft, Stack Overflow, Metal Toad
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="company2" value="option2">
-                  eBay, Nike, Google
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="company3" value="option3">
-                  Uber, Soundcloud, Salesforce
-                </label>
-              </div>
-            </div>
-          <!--Environment Radio-->
-            <div>
-              <label for="radio"><strong>Which type of environment do you thrive in?</strong></label>
+              <label for="radio"><strong>What would you like to build?</strong></label>
               <div class="radio">
                 <label>
                   <input type="radio" name="..." value="..." checked>
-                  Large enterprise
+                  Develop a video game
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="..." value="...">
-                  Small enterprise
+                  Create a phone app in Android
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="..." value="...">
+                  Design a web page
                 </label>
               </div>
             </div>
-          <!--Build Radio-->
-          <div>
-            <label for="radio"><strong>What would you like to build?</strong></label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="..." value="..." checked>
-                Database for a healthcare site
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="..." value="...">
-                A phone app in Android
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="..." value="...">
-                Create web page
-              </label>
-            </div>
           </div>
-      <div class="row">
-        <div class="col-md-6">
-
-          <button type="submit" class="btn btn-default">Submit</button>
-          </form>
+          <div class="col-md-6">
+            <!--Checkboxes-->
+            <div>
+              <label for "checkbox"><strong>Select the words that appeal to you</strong></label>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value "">
+                  General purpose
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value "">
+                  Object-oriented
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value "">
+                  Cross platform
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value "">
+                  User interfacing
+                </label>
+              </div>
+            </div>
+            <!--Drop-down-->
+            <div>
+            <label for="...">Why do you want to code?</label>
+            <select class="form-control" id="...">
+              <option>Professional developer</option>
+              <option>Run a startup</option>
+              <option>Build something fun</option>
+            </select>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
         </div>
-      </div>
-
+      </form>
 
     </div>
   </body>
