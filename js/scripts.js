@@ -1,5 +1,5 @@
 // Business logic:
-  var company = $("input:radio[name=company]:checked").val();
+  //var company = $("input:radio[name=company]:checked").val();
 
   //var size = $("input:radio[name=size]:checked").val();
 
@@ -11,7 +11,8 @@
 
 // User input:
 $(document).ready(function() {
-  //$('.dropdown-toggle').dropdown(); //activiates Drop-down 
+  var company = $("input:radio[name=company]:checked").val();
+  //$('.dropdown-toggle').dropdown(); //activiates Drop-down
   $("form").submit(function(event) {
 
     if ( company === 'option1' ) {
