@@ -21,7 +21,29 @@
       <form id = "survey">
         <div class="row">
           <div class="col-md-6">
-            <!---Company Radio-->
+            <!--Why Code?-->
+            <div>
+              <label for="radio"><strong>Why do you want to code?</strong></label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="why" value="..." checked>
+                  Run a startup
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="why" value="..." checked>
+                  Become a professional developer
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="why" value="..." checked>
+                  Build something fun
+                </label>
+              </div>
+            </div>
+            <!---Which Company-->
               <div>
                 <label for="radio"><strong>Which companies appeal to you most?</strong></label>
                 <div class="radio">
@@ -65,6 +87,8 @@
                   </label>
                 </div>
               </div>
+          </div>
+          <div class="col-md-6">
             <!--Build Radio-->
             <div>
               <label for="radio"><strong>What would you like to build?</strong></label>
@@ -87,8 +111,6 @@
                 </label>
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
             <!--Checkboxes-->
             <div>
               <label for "checkbox"><strong>Select the words that appeal to you</strong></label>
@@ -116,20 +138,6 @@
                   User interfacing
                 </label>
               </div>
-            </div>
-            <!--Drop-down-->
-            <p>Why do you want to code?</p>
-            <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                Choose
-              <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li>Run a startup</li>
-                <li>Become a professional developer</li>
-                <li>Build something fun</li>
-                <li role="separator" class="divider"></li>
-              </ul>
             </div>
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
