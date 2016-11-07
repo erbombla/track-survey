@@ -1,0 +1,7 @@
+Notes
+
+**Eric, branching is now working and is showing results. Make sure that when a new result is showing (as when the form is resubmitted without refreshing the page) that other results are hidden. Currently, it's possible to have all potential tracks show up at once.
+
+You'll also want to make sure to always merge your changes to the master branch when you are finished with your project, as I wasn't sure at first which branch should be reviewed.**
+
+-Make sure to collect all user inputs in UI logic. -Branching is close to working. -Make sure to hide and not just show
