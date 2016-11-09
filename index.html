@@ -24,14 +24,14 @@
               <label for="radio"><strong>Would you like to work for a startup?</strong></label>
               <div class="radio">
                 <label>
-                  <input type="radio" name="why" value="..." checked>
+                  <input type="radio" name="startup" value="1" checked>
                   Yes
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="why" value="..." checked>
-                 No
+                  <input type="radio" name="startup" value="2" checked>
+                  No
                 </label>
               </div>
             </div>
@@ -39,13 +39,13 @@
                 <label for="radio"><strong>Do you see yourself working for a large company like Microsoft, Nike or Google?</strong></label>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="company" value="option1" checked>
+                    <input type="radio" name="company" value="1" checked>
                     Yes
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="company" value="option2">
+                    <input type="radio" name="company" value="2">
                     No
                   </label>
                 </div>
@@ -56,23 +56,36 @@
               <label for="radio"><strong>Would you enjoy desigining web pages?</strong></label>
               <div class="radio">
                 <label>
-                  <input type="radio" name="build" value="..." checked>
+                  <input type="radio" name="front" value="1" checked>
                   Yes
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="build" value="...">
+                  <input type="radio" name="front" value="2">
                  No
                 </label>
-              </div
+              </div>
+              <label for="radio"><strong>Do you prefer to work server side instead?</strong></label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="back" value="1" checked>
+                  Yes
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="back" value="2">
+                 No
+                </label>
+              </div>
+
             </div>
-            
+
             </div>
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
-        </div>
       </form>
       <!--Results inside panel -->
         <div class="panel panel-primary">
@@ -87,6 +100,7 @@
             CSS and Design
           </div>
         </div>
+      <div>
     </div>
   </body>
 </html>
