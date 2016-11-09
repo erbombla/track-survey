@@ -41,10 +41,6 @@ This repository is written in:
 * JavaScript
 * jQuery
 
-## Link 
-
-https://erbombla.github.io/track-survey/
-
 ### License
 
 Copyright (c) 2016 **Eric Bomblatus**
